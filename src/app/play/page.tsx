@@ -1889,14 +1889,13 @@ function PlayPageClient() {
           >
             {/* 播放器 */}
             <div
-              className={`h-full transition-all duration-300 ease-in-out rounded-xl border border-white/0 dark:border-white/30 ${
-                isEpisodeSelectorCollapsed ? 'col-span-1' : 'md:col-span-3'
+              className={`h-full transition-all duration-300 ease-in-out rounded-xl border border-white/0 dark:border-white/30 ${isEpisodeSelectorCollapsed ? 'col-span-1' : 'md:col-span-3'
               }`}
             >
-              <div className="relative w-full aspect-video">
+              <div className='relative w-full aspect-video'>
                 <div
                   ref={artRef}
-                  className="bg-black w-full h-full rounded-xl overflow-hidden shadow-lg"
+                  className='bg-black w-full h-full rounded-xl overflow-hidden shadow-lg'
                 ></div>
               </div>
             </div>
