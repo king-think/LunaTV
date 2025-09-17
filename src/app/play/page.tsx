@@ -1884,12 +1884,12 @@ function PlayPageClient() {
           <div
             className={`grid gap-4 lg:h-[450px] xl:h-[532px] 2xl:h-[650px] transition-all duration-300 ease-in-out ${isEpisodeSelectorCollapsed
               ? 'grid-cols-1'
-              : 'grid-cols-1 md:grid-cols-5'
+              : 'grid-cols-1 md:grid-cols-[77%_23%]'
               }`}
           >
             {/* 播放器 */}
             <div
-              className={`h-full transition-all duration-300 ease-in-out rounded-xl border border-white/0 dark:border-white/30 ${isEpisodeSelectorCollapsed ? 'col-span-1' : 'md:col-span-4'
+              className={`h-full transition-all duration-300 ease-in-out rounded-xl border border-white/0 dark:border-white/30 ${isEpisodeSelectorCollapsed ? 'col-span-1' : 'md:col-span-1'
                 }`}
             >
               <div className='relative w-full h-[300px] lg:h-full'>
