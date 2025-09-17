@@ -1884,7 +1884,7 @@ function PlayPageClient() {
           <div
             className={`grid gap-4 lg:h-[450px] xl:h-[532px] 2xl:h-[650px] transition-all duration-300 ease-in-out ${isEpisodeSelectorCollapsed
               ? 'grid-cols-1'
-              : 'grid-cols-1 md:grid-cols-[77%_23%]'
+              : 'grid-cols-1 md:grid-cols-[80%_20%]' // 播放器 77%，选集 23%
               }`}
           >
             {/* 播放器 */}
