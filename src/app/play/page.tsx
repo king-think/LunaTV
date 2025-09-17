@@ -1897,8 +1897,6 @@ function PlayPageClient() {
                   ref={artRef}
                   className='bg-black w-full h-full rounded-xl overflow-hidden shadow-lg'
                 ></div>
-              </div>
-            </div>
 
                 {/* 换源加载蒙层 */}
                 {isVideoLoading && (
