@@ -1882,9 +1882,9 @@ function PlayPageClient() {
           </div>
 
           <div
-            className={`grid gap-4 lg:h-[500px] xl:h-[520px] 2xl:h-[540px] transition-all duration-300 ease-in-out ${isEpisodeSelectorCollapsed
+            className={`grid gap-4 lg:h-[500px] xl:h-[520px] 2xl:h-[520px] transition-all duration-300 ease-in-out ${isEpisodeSelectorCollapsed
               ? 'grid-cols-1'
-              : 'grid-cols-1 md:grid-cols-[74.5%_25.5%]' // 播放器 75%，选集 25%
+              : 'grid-cols-1 md:grid-cols-[74.8%_25.2%]' // 播放器 75%，选集 25%
               }`}
           >
             {/* 播放器 */}
